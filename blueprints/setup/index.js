@@ -13,7 +13,7 @@ module.exports = {
   afterInstall(/*options*/) {
     this.ui.writeLine('Adding packages...')
     return this.addPackagesToProject([
-        {name: 'babel-plugin-transform-object-rest-spread'},
+        {name: '@babel/plugin-proposal-object-rest-spread'},
         {name: 'ember-cli-postcss'}, // loading custom options so don't want to pull theirs
         {name: 'tailwindcss'},
         {name: '@fortawesome/free-solid-svg-icons'},
