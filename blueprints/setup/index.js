@@ -17,6 +17,7 @@ module.exports = {
         {name: 'ember-cli-postcss'}, // loading custom options so don't want to pull theirs
         {name: 'tailwindcss'},
         {name: '@fortawesome/free-solid-svg-icons'},
+        {name: '@fortawesome/free-brands-svg-icons'},
     ]).then(() => {
       this.ui.writeLine('Adding ember addons...')
       return this.addAddonsToProject({
