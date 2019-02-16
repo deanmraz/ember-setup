@@ -18,6 +18,16 @@ module.exports = {
         {name: 'tailwindcss'},
         {name: '@fortawesome/free-solid-svg-icons'},
         {name: '@fortawesome/free-brands-svg-icons'},
+        {name: "@storybook/addon-actions"},
+        {name: "@storybook/addon-knobs"},
+        {name: "@storybook/addon-notes"},
+        {name: "@storybook/addon-storysource"},
+        {name: "@storybook/addon-viewport"},
+        {name: "@storybook/addons"},
+        {name: "@storybook/ember"},
+        {name: "@babel/core"},
+        {name: "babel-loader"},
+        {name: "ember-cli-storybook"}, // added here on purposes since manually adding my own storybook config
     ]).then(() => {
       this.ui.writeLine('Adding ember addons...')
       return this.addAddonsToProject({
