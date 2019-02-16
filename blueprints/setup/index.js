@@ -34,6 +34,7 @@ module.exports = {
           {name: 'ember-cli-deploy-s3'},
           {name: 'ember-cli-deploy-s3-index'},
           {name: 'ember-metrics'},
+          {name: 'ember-router-scroll'},
           {name: '@fortawesome/ember-fontawesome'},
         ]
       })
