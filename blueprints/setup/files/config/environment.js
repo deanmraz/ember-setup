@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'ember-app',
+    modulePrefix: 'ember-app', // TODO update to app name
     environment,
     rootURL: '/',
     locationType: 'router-scroll',
